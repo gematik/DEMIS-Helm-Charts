@@ -3,7 +3,7 @@ entries:
   certificate-update-service:
   - apiVersion: v2
     appVersion: 1.6.0
-    created: "2025-04-11T10:30:32.30235493+02:00"
+    created: "2025-04-11T10:32:30.329260581+02:00"
     description: DEMIS Certificate Update Service Helm Chart
     digest: e1078d7fb78faebfa785a9f684527affefcb6c16d3722da02a819857a700fe4e
     name: certificate-update-service
@@ -14,7 +14,7 @@ entries:
   certificate-update-service-istio:
   - apiVersion: v2
     appVersion: 1.6.0
-    created: "2025-04-11T10:30:32.30247375+02:00"
+    created: "2025-04-11T10:32:30.329438341+02:00"
     description: DEMIS certificate-update-service Istio Configuration
     digest: 4bc9fdcf2319723234f8b445c4e82dcb74012d5cfc97469230536a636d20d092
     name: certificate-update-service-istio
@@ -25,7 +25,7 @@ entries:
   context-enrichment-service:
   - apiVersion: v2
     appVersion: 1.1.0
-    created: "2025-04-11T10:30:32.30295617+02:00"
+    created: "2025-04-11T10:32:30.330948691+02:00"
     description: context-enrichment-service Helm Chart
     digest: 5ea2135fac8d5d1e31a0eb4fbc7fe180906bdc81687b713740f082ff5be35292
     name: context-enrichment-service
@@ -36,7 +36,7 @@ entries:
   context-enrichment-service-istio:
   - apiVersion: v2
     appVersion: 1.1.0
-    created: "2025-04-11T10:30:32.30319309+02:00"
+    created: "2025-04-11T10:32:30.331442911+02:00"
     description: DEMIS context-enrichment-service Istio Configuration
     digest: 7928c87b82b932304f9712097035dc730acf26bbd58e12ff8f0ff059ea51e601
     name: context-enrichment-service-istio
@@ -47,7 +47,7 @@ entries:
   fhir-storage-purger:
   - apiVersion: v2
     appVersion: 1.1.2
-    created: "2025-04-11T10:30:32.30365311+02:00"
+    created: "2025-04-11T10:32:30.332353911+02:00"
     description: DEMIS FHIR-Storage-Purger
     digest: cf5da8f9c2785cedad49fac0a8478c4d8473d656ae951d02ed71eb418ef7c151
     name: fhir-storage-purger
@@ -58,7 +58,7 @@ entries:
   fhir-storage-purger-istio:
   - apiVersion: v2
     appVersion: 1.1.2
-    created: "2025-04-11T10:30:32.30377557+02:00"
+    created: "2025-04-11T10:32:30.33257218+02:00"
     description: DEMIS fhir-storage-purger Istio Configuration
     digest: e2e44c3b4f09228f11b9dbb77c3dcf0bb303834624b1d896e4f952d6743cda39
     name: fhir-storage-purger-istio
@@ -69,7 +69,7 @@ entries:
   fhir-storage-reader:
   - apiVersion: v2
     appVersion: 1.1.2
-    created: "2025-04-11T10:30:32.30424811+02:00"
+    created: "2025-04-11T10:32:30.33350587+02:00"
     description: DEMIS SpringBoot Service Demo Helm Chart
     digest: 75b515b313b76836e61ebc6d68630f397ed0c9689a4bb9a906aa12f24c9f4901
     name: fhir-storage-reader
@@ -80,7 +80,7 @@ entries:
   fhir-storage-reader-istio:
   - apiVersion: v2
     appVersion: 1.1.2
-    created: "2025-04-11T10:30:32.3044684+02:00"
+    created: "2025-04-11T10:32:30.33396648+02:00"
     description: DEMIS fhir-storage-reader Istio Configuration
     digest: 59230d07487c43e34a027b2b2e15695490575a6b1892d855e47d6995d66993e9
     name: fhir-storage-reader-istio
@@ -91,7 +91,7 @@ entries:
   fhir-storage-writer:
   - apiVersion: v2
     appVersion: 1.1.2
-    created: "2025-04-11T10:30:32.30499831+02:00"
+    created: "2025-04-11T10:32:30.33492125+02:00"
     description: DEMIS SpringBoot Service Demo Helm Chart
     digest: e200274594fbc38e4424b01465da27dc881627f1faf327abcb326d8f75d10d6f
     name: fhir-storage-writer
@@ -102,7 +102,7 @@ entries:
   fhir-storage-writer-istio:
   - apiVersion: v2
     appVersion: 1.1.2
-    created: "2025-04-11T10:30:32.30520982+02:00"
+    created: "2025-04-11T10:32:30.33534756+02:00"
     description: DEMIS fhir-storage-writer Istio Configuration
     digest: c3b000e87fe4bd769d4f5e220db8df62b690925ee0dcb76c097a5cb7a293fd41
     name: fhir-storage-writer-istio
@@ -113,7 +113,7 @@ entries:
   futs:
   - apiVersion: v2
     appVersion: 2.1.5
-    created: "2025-04-11T10:30:32.30569803+02:00"
+    created: "2025-04-11T10:32:30.33632794+02:00"
     description: FHIR UI Data Model Translation Service Helm Chart
     digest: f3b185906759063367fd65c2785d7d9e25a8f8b2dfd2743bf2ce4787381b4195
     name: futs
@@ -124,7 +124,7 @@ entries:
   futs-delegation-istio:
   - apiVersion: v2
     appVersion: 2.1.5
-    created: "2025-04-11T10:30:32.30594897+02:00"
+    created: "2025-04-11T10:32:30.3368187+02:00"
     description: DEMIS fhir-ui-data-model-translation-service Istio Configuration
       for delegation
     digest: 43721b998338b8e7add7c2abe3e1cd8e4d60a159a6a6fe7dd9af4acdf557b3f9
@@ -136,7 +136,7 @@ entries:
   futs-istio:
   - apiVersion: v2
     appVersion: 2.1.5
-    created: "2025-04-11T10:30:32.30640916+02:00"
+    created: "2025-04-11T10:32:30.33731121+02:00"
     description: DEMIS fhir-ui-data-model-translation-service Istio Configuration
     digest: 858186b9985e3aa90c1e5264df814b1af09248cad5acc6f873c6981b701d1858
     name: futs-istio
@@ -147,7 +147,7 @@ entries:
   gematik-idp:
   - apiVersion: v2
     appVersion: 29.0.1
-    created: "2025-04-11T10:30:32.30771434+02:00"
+    created: "2025-04-11T10:32:30.338177499+02:00"
     description: DEMIS gematik IDP Helm Chart
     digest: 4657bbde9b5c8d120dba30aa49f4a84d92d755919297c2bbda21a3dcda30845c
     name: gematik-idp
@@ -158,7 +158,7 @@ entries:
   gematik-idp-istio:
   - apiVersion: v2
     appVersion: 29.0.1
-    created: "2025-04-11T10:30:32.30819232+02:00"
+    created: "2025-04-11T10:32:30.33861041+02:00"
     description: Reference development of the central IDP Istio Configuration
     digest: 53c34519469c632c34be233d9caa4866d95c63c1e3a9deb27b22f9bc4a8bccc1
     name: gematik-idp-istio
@@ -169,7 +169,7 @@ entries:
   hospital-location-service:
   - apiVersion: v2
     appVersion: 1.2.1
-    created: "2025-04-11T10:30:32.308809049+02:00"
+    created: "2025-04-11T10:32:30.339434809+02:00"
     description: DEMIS Report Processing Service Helm Chart
     digest: c61cde28172b99f5825a16bebfedb530a12f1de9345d16bb73c1e49b2bc07f8c
     name: hospital-location-service
@@ -180,7 +180,7 @@ entries:
   hospital-location-service-istio:
   - apiVersion: v2
     appVersion: 1.2.1
-    created: "2025-04-11T10:30:32.309127849+02:00"
+    created: "2025-04-11T10:32:30.339904269+02:00"
     description: DEMIS hospital-location-service Istio Configuration
     digest: d3ddacf194e57b87e1e8eecd0048749144d3d3e63259fc719e2c0d196233a6ff
     name: hospital-location-service-istio
@@ -191,7 +191,7 @@ entries:
   igs-service:
   - apiVersion: v2
     appVersion: 1.1.2
-    created: "2025-04-11T10:30:32.309787829+02:00"
+    created: "2025-04-11T10:32:30.340889909+02:00"
     description: Integrierte-Genomische-Surveillance-Service Helm Chart
     digest: 50ac6822b8b299ab3e7672b41914da27241b99212f2003cdb9460d7c11b0e592
     name: igs-service
@@ -202,7 +202,7 @@ entries:
   igs-service-istio:
   - apiVersion: v2
     appVersion: 1.1.2
-    created: "2025-04-11T10:30:32.310063769+02:00"
+    created: "2025-04-11T10:32:30.341330679+02:00"
     description: DEMIS integrierte-genomische-surveillance-service Istio Configuration
     digest: 9f9ca1e4871b0c585b430274701dcb06d02c78dd90d9a48d0f20cd2de0146a45
     name: igs-service-istio
@@ -213,7 +213,7 @@ entries:
   keycloak-user-purger:
   - apiVersion: v2
     appVersion: 1.1.0
-    created: "2025-04-11T10:30:32.310575069+02:00"
+    created: "2025-04-11T10:32:30.342867299+02:00"
     description: DEMIS keycloak-user-purger Helm Chart
     digest: 30a26300d765bb576baa2d5dd344b77cedbe972c02eec45563c529c3c5a1773e
     name: keycloak-user-purger
@@ -224,7 +224,7 @@ entries:
   keycloak-user-purger-istio:
   - apiVersion: v2
     appVersion: 1.1.0
-    created: "2025-04-11T10:30:32.310719279+02:00"
+    created: "2025-04-11T10:32:30.343041109+02:00"
     description: DEMIS keycloak-user-purger Istio Configuration
     digest: ef3c0c3976ad9edfa27a054316c13cd3bb8cbecba972056722023ae43afd8d02
     name: keycloak-user-purger-istio
@@ -235,7 +235,7 @@ entries:
   lifecycle-validation-service:
   - apiVersion: v2
     appVersion: 1.2.2
-    created: "2025-04-11T10:30:32.311221229+02:00"
+    created: "2025-04-11T10:32:30.343640659+02:00"
     description: lifecycle-validation-service Helm Chart
     digest: dd0d8d947e5867197af5f55fda2d27a426735080793e2ddbc7292bc2c6a2748f
     name: lifecycle-validation-service
@@ -246,7 +246,7 @@ entries:
   lifecycle-validation-service-istio:
   - apiVersion: v2
     appVersion: 1.2.2
-    created: "2025-04-11T10:30:32.311471829+02:00"
+    created: "2025-04-11T10:32:30.343957349+02:00"
     description: DEMIS lifecycle-validation-service Istio Configuration
     digest: f52fc7938f267d7523cf0d483f4705791c5953887e8f507f0342875f3c3a4e88
     name: lifecycle-validation-service-istio
@@ -257,7 +257,7 @@ entries:
   notification-gateway:
   - apiVersion: v2
     appVersion: 6.3.5
-    created: "2025-04-11T10:30:32.312090079+02:00"
+    created: "2025-04-11T10:32:30.344536589+02:00"
     description: DEMIS Notification Gateway Helm Chart
     digest: 7ca82df5a6b2b50873cc8f1d722174eba9124fdf57556b0f998a5955daead9ab
     name: notification-gateway
@@ -268,7 +268,7 @@ entries:
   notification-gateway-istio:
   - apiVersion: v2
     appVersion: 6.3.5
-    created: "2025-04-11T10:30:32.312363869+02:00"
+    created: "2025-04-11T10:32:30.344862718+02:00"
     description: DEMIS notification-gateway Istio Configuration
     digest: 065164b3974da599eea030a8863b1ad3bf4a0dd7639249b9950cd7326c73ecf8
     name: notification-gateway-istio
@@ -279,7 +279,7 @@ entries:
   notification-processing-service:
   - apiVersion: v2
     appVersion: 2.0.0
-    created: "2025-04-11T10:30:32.312930699+02:00"
+    created: "2025-04-11T10:32:30.345381089+02:00"
     description: DEMIS Notification Processing Service Helm Chart
     digest: 15396133ad7db49cc35667bb62ea6e139228ce7171eebb325beb88d5589b916e
     name: notification-processing-service
@@ -290,7 +290,7 @@ entries:
   notification-processing-service-istio:
   - apiVersion: v2
     appVersion: 2.0.0
-    created: "2025-04-11T10:30:32.313215309+02:00"
+    created: "2025-04-11T10:32:30.345742849+02:00"
     description: DEMIS notification-processing-service Istio Configuration
     digest: c38ba0c780e7c424fe43174816d0d75924b9d2252dccf6f81927a402f02db414
     name: notification-processing-service-istio
@@ -301,7 +301,7 @@ entries:
   notification-routing-service:
   - apiVersion: v2
     appVersion: 2.2.1
-    created: "2025-04-11T10:30:32.313765789+02:00"
+    created: "2025-04-11T10:32:30.346265088+02:00"
     description: DEMIS Notification routing Service Helm Chart
     digest: 4e9f67199589d4330e9da75f16d8f058feeb1bfe3b05e18ce6050c226e21fd8c
     name: notification-routing-service
@@ -312,7 +312,7 @@ entries:
   notification-routing-service-istio:
   - apiVersion: v2
     appVersion: 2.2.1
-    created: "2025-04-11T10:30:32.314035549+02:00"
+    created: "2025-04-11T10:32:30.346528288+02:00"
     description: DEMIS notification-routing-service Istio Configuration
     digest: 0997b9f8ecc707ffc0d8750cdcf9a27628d0742d79b06d786c3591d0b9819434
     name: notification-routing-service-istio
@@ -323,7 +323,7 @@ entries:
   pdfgen-service:
   - apiVersion: v2
     appVersion: 2.7.0
-    created: "2025-04-11T10:30:32.314732949+02:00"
+    created: "2025-04-11T10:32:30.347104588+02:00"
     description: DEMIS PDFGen Service Helm Chart
     digest: 4396ec161f398fdbba2ac29d5eb122237521a86285a7f2486054fa355297c186
     name: pdfgen-service
@@ -334,7 +334,7 @@ entries:
   pdfgen-service-istio:
   - apiVersion: v2
     appVersion: 2.7.0
-    created: "2025-04-11T10:30:32.315029149+02:00"
+    created: "2025-04-11T10:32:30.347402438+02:00"
     description: DEMIS pdfgen-service Istio Configuration
     digest: 0f03a66141f0f3f14a62b23cafeab096a21490b6643ce0425fb03baa1cc54816
     name: pdfgen-service-istio
@@ -345,7 +345,7 @@ entries:
   report-processing-service:
   - apiVersion: v2
     appVersion: 2.0.0
-    created: "2025-04-11T10:30:32.316183659+02:00"
+    created: "2025-04-11T10:32:30.347965478+02:00"
     description: DEMIS Report Processing Service Helm Chart
     digest: 148f30d967cf4acd828e16af285cc59bd51b1b9205e8c2add560663a71bcd16a
     name: report-processing-service
@@ -356,7 +356,7 @@ entries:
   report-processing-service-istio:
   - apiVersion: v2
     appVersion: 2.0.0
-    created: "2025-04-11T10:30:32.316837838+02:00"
+    created: "2025-04-11T10:32:30.348217568+02:00"
     description: DEMIS report-processing-service Istio Configuration
     digest: 264669befdfe03da6832f89dee9202b948715a88e16b69c76e6018940ecd99d6
     name: report-processing-service-istio
@@ -364,4 +364,37 @@ entries:
     urls:
     - https://gematik.github.io/DEMIS-Helm-Charts/report-processing-service-istio/report-processing-service-istio-2.0.0.tgz
     version: 2.0.0
-generated: "2025-04-11T10:30:32.301695921+02:00"
+  validation-service:
+  - apiVersion: v2
+    appVersion: 2.6.1
+    created: "2025-04-11T10:32:30.348941628+02:00"
+    description: DEMIS Validation Service Helm Chart
+    digest: b9bf7cf600c3776abe4fd96b0b96092771a44b602781e00bdc17b05c3a0ee025
+    name: validation-service
+    type: application
+    urls:
+    - https://gematik.github.io/DEMIS-Helm-Charts/validation-service/validation-service-2.6.1.tgz
+    version: 2.6.1
+  validation-service-delegation-istio:
+  - apiVersion: v2
+    appVersion: 2.6.1
+    created: "2025-04-11T10:32:30.349216488+02:00"
+    description: DEMIS validation-service Istio Configuration for delegation
+    digest: 414b639dea593ccd847852ecbe6ea8b4b3bce08e0642cb36aa0bed0701d81cab
+    name: validation-service-delegation-istio
+    type: application
+    urls:
+    - https://gematik.github.io/DEMIS-Helm-Charts/validation-service-delegation-istio/validation-service-delegation-istio-2.6.1.tgz
+    version: 2.6.1
+  validation-service-istio:
+  - apiVersion: v2
+    appVersion: 2.6.1
+    created: "2025-04-11T10:32:30.349488168+02:00"
+    description: DEMIS validation-service Istio Configuration
+    digest: cf3c9d5946417a8270e841d48251cf13aa93a2a61e23cb446d8d7787d3ed1d2c
+    name: validation-service-istio
+    type: application
+    urls:
+    - https://gematik.github.io/DEMIS-Helm-Charts/validation-service-istio/validation-service-istio-2.6.1.tgz
+    version: 2.6.1
+generated: "2025-04-11T10:32:30.327907021+02:00"
