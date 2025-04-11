@@ -3,7 +3,7 @@ entries:
   certificate-update-service:
   - apiVersion: v2
     appVersion: 1.6.0
-    created: "2025-04-11T09:49:26.266122865+02:00"
+    created: "2025-04-11T09:53:49.783280901+02:00"
     description: DEMIS Certificate Update Service Helm Chart
     digest: e1078d7fb78faebfa785a9f684527affefcb6c16d3722da02a819857a700fe4e
     name: certificate-update-service
@@ -14,7 +14,7 @@ entries:
   certificate-update-service-istio:
   - apiVersion: v2
     appVersion: 1.6.0
-    created: "2025-04-11T09:49:26.266263434+02:00"
+    created: "2025-04-11T09:53:49.783490272+02:00"
     description: DEMIS certificate-update-service Istio Configuration
     digest: 4bc9fdcf2319723234f8b445c4e82dcb74012d5cfc97469230536a636d20d092
     name: certificate-update-service-istio
@@ -22,4 +22,26 @@ entries:
     urls:
     - https://gematik.github.io/DEMIS-Helm-Charts/certificate-update-service-istio/certificate-update-service-istio-1.6.0.tgz
     version: 1.6.0
-generated: "2025-04-11T09:49:26.265468145+02:00"
+  context-enrichment-service:
+  - apiVersion: v2
+    appVersion: 1.1.0
+    created: "2025-04-11T09:53:49.784212972+02:00"
+    description: context-enrichment-service Helm Chart
+    digest: 5ea2135fac8d5d1e31a0eb4fbc7fe180906bdc81687b713740f082ff5be35292
+    name: context-enrichment-service
+    type: application
+    urls:
+    - https://gematik.github.io/DEMIS-Helm-Charts/context-enrichment-service/context-enrichment-service-1.1.0.tgz
+    version: 1.1.0
+  context-enrichment-service-istio:
+  - apiVersion: v2
+    appVersion: 1.1.0
+    created: "2025-04-11T09:53:49.784587521+02:00"
+    description: DEMIS context-enrichment-service Istio Configuration
+    digest: 7928c87b82b932304f9712097035dc730acf26bbd58e12ff8f0ff059ea51e601
+    name: context-enrichment-service-istio
+    type: application
+    urls:
+    - https://gematik.github.io/DEMIS-Helm-Charts/context-enrichment-service-istio/context-enrichment-service-istio-1.1.0.tgz
+    version: 1.1.0
+generated: "2025-04-11T09:53:49.782321792+02:00"
